@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html class="no-js vlt-is--homepage-05 vlt-is--header-default vlt-is--footer-widgetized vlt-is--footer-fixed vlt-is--lowercase-mode" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title data-i18n="page.title.team">Printact - STEM，生物科技，創科，深科技教育專家</title>
+	<meta name="description" content="Modern, Colorful &amp; Creative Portfolio HTML5 Template">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!--Favicon-->
+	<link rel="icon" type="image/png" href="assets/img/root/favicon.png">
+	<!--Framework-->
+	<link rel="stylesheet" href="assets/css/framework/bootstrap.min.css">
+	<!--Plugins-->
+	<link rel="stylesheet" href="assets/css/vlt-plugins.css">
+	<!--RevSlider-->
+	<link rel="stylesheet" href="assets/revolution/css/settings.css">
+	<!--Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800%7CMuli:400,400i,600%7CPlayfair+Display:700i" rel="stylesheet">
+	<!--Icons-->
+	<link rel="stylesheet" href="assets/fonts/fontawesome/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/fonts/leedo/style.css">
+	<!--Style-->
+	<link rel="stylesheet" href="assets/css/vlt-style.min.css">
+	<!--Custom-->
+	<link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+	<!--Preloader-->
+	<div class="vlt-site-preloader">
+		<div class="image"><img src="assets/img/root/preloader.gif" alt=""></div>
+	</div>
+	<!--Site Wrapper-->
+	<div class="vlt-site-wrapper">
+		<!--Site Wrapper Inner-->
+		<div class="vlt-site-wrapper__inner">
+			<!--Header-->
+			
+				<script src="header.js"></script>
+			
+			
+				<script src="Teachers.js"></script>
+
+		</div>
+		<!--Footer-->
+		<div>
+			<script src="Footer.js"></script>
+		</div>
+		
+	</div>
+	<!--Libs-->
+	<script src="assets/scripts/vlt-plugins.min.js"></script>
+	<script src="assets/scripts/vlt-helpers.js"></script>
+	<script src="assets/scripts/vlt-controllers.min.js"></script>
+	<!--RevSlider-->
+	<script src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+	<script src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+	<!--RevSlider Extensions-->
+	<script src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+	<script src="assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+	<script src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<script src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+	<script src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+	<script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+	<!--Google Maps-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv_85HechLOo3Rf-AD8sXNMqIb-L5fVic"></script>
+	<script>
+		(function($) {
+
+			'use strict';
+
+			var isDraggable = $(document).width() > 641 ? true : true;
+			var position = new google.maps.LatLng(40.713669, -74.007266);
+
+			var map_options = {
+				center: position,
+				zoom: 10,
+				scaleControl: true,
+				streetViewControl: false,
+				mapTypeControl: false,
+				panControl: false,
+				zoomControl: false,
+				scrollwheel: false,
+				draggable: isDraggable
+			}
+
+			//inizialize the map
+			var map = new google.maps.Map(document.getElementById('map'), map_options);
+
+			//add a custom marker to the map
+			var marker = new google.maps.Marker({
+				position: position,
+				map: map,
+				animation: google.maps.Animation.DROP,
+				icon: 'assets/img/root/map-marker--pink.png'
+			});
+
+			google.maps.event.addListener(marker, 'click', toggleBounce);
+
+			google.maps.event.addDomListener(window, 'resize', function() {
+				var center = map.getCenter();
+				google.maps.event.trigger(map, 'resize');
+				map.setCenter(center);
+			});
+
+			function toggleBounce() {
+				if (marker.getAnimation() != null) {
+					marker.setAnimation(null);
+				} else {
+					marker.setAnimation(google.maps.Animation.BOUNCE);
+				}
+			}
+
+		})(jQuery);
+	</script>
+</body>
+
+</html>
