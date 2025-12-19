@@ -53,8 +53,8 @@ const translations = {
         'en': '🛠️ Maker Academy'
     },
     'nav.deeptech': {
-        'zh': '🚀 深科技學校',
-        'en': '🚀 DeepTech School'
+        'zh': '🚀 深科技AI學校',
+        'en': '🚀 DeepTech AI School'
     },
     'nav.itlab': {
         'zh': '👩‍🔬 中學IT創新實驗室',
@@ -63,7 +63,7 @@ const translations = {
 
     // Footer
     'footer.about.title': { zh: '關於BioX', en: 'About BioX' },
-    'footer.about.desc': { zh: 'BioX 成立於2012年，為香港首間研發3D打印機及自動化系統的初創，並教授自造者技術。<br><br>於2020年，合併42Lab從而成立三大品牌：零式科學、自造者學院、深科技學校。', en: 'BioX was founded in 2012 as Hong Kong\'s first startup to develop 3D printers and automation systems, and to teach maker technology.<br><br>In 2020, we merged with 42Lab to establish three major brands: 0x2A Science, MakerTech Academy, and DeepTech School.' },
+    'footer.about.desc': { zh: 'BioX 成立於2012年，為香港首間研發3D打印機及自動化系統的初創，並教授自造者技術。<br><br>於2020年，合併42Lab從而成立三大品牌：零式科學、自造者學院、深科技AI學校。', en: 'BioX was founded in 2012 as Hong Kong\'s first startup to develop 3D printers and automation systems, and to teach maker technology.<br><br>In 2020, we merged with 42Lab to establish three major brands: 0x2A Science, MakerTech Academy, and DeepTech AI School.' },
     'footer.links.title': { zh: '快速鏈結', en: 'Quick Links' },
     'footer.links.home': { zh: '首頁', en: 'Home' },
     'footer.links.courses': { zh: '線上、實體、到校及公開課程', en: 'Online, In-person & Public Courses' },
@@ -113,8 +113,8 @@ const translations = {
         'en': 'Electronics, Mechanics, IoT, Automation...etc'
     },
     'brand.deeptech.name': {
-        'zh': '深科技學校',
-        'en': 'DeepTech School'
+        'zh': '深科技AI學校',
+        'en': 'DeepTech AI School'
     },
     'brand.deeptech.category': {
         'zh': '電腦科學，深度科技，創業精神',
@@ -189,8 +189,8 @@ const translations = {
         'en': 'IoT, 5G, Robotics, Industrial 4.0 and Maker Skills'
     },
     'curriculum.subject.deeptech.title': {
-        'zh': '深科技學校',
-        'en': 'DeepTech School'
+        'zh': '深科技AI學校',
+        'en': 'DeepTech AI School'
     },
     'curriculum.subject.deeptech.desc': {
         'zh': '人工智能、區塊鏈、數據科學、量子計算、太空技術',
@@ -232,8 +232,8 @@ const translations = {
 
     // DeepTech page
     'deeptech.title': {
-        'zh': 'DeepTech School 深科技學校',
-        'en': 'DeepTech School'
+        'zh': 'DeepTech AI School 深科技AI學校',
+        'en': 'DeepTech AI School'
     },
     'deeptech.blockchain': {
         'zh': '區塊鏈及去中心化(DeFi)課程/工作坊',
@@ -462,7 +462,7 @@ const translations = {
     'maker.uiux': { zh: '使用者介面(UI)，使用者體驗(UX)課程/工作坊', en: 'UI/UX Design Course/Workshop' },
 
     // DeepTech Page
-    'deeptech.title': { zh: 'DeepTech School 深科技學校', en: 'DeepTech School' },
+    'deeptech.title': { zh: 'DeepTech AI School 深科技AI學校', en: 'DeepTech AI School' },
     'deeptech.blockchain': { zh: '區塊鏈及去中心化(DeFi)課程/工作坊', en: 'Blockchain & DeFi Course/Workshop' },
     'deeptech.token': { zh: '代幣化及代幣經濟課程/工作坊', en: 'Tokenization & Tokenomics Course/Workshop' },
     'deeptech.bioinfo': { zh: '生物信息學課程/工作坊', en: 'Bioinformatics Course/Workshop' },
@@ -824,7 +824,7 @@ function updateNavigationMenu() {
         { href: 'curriculum.html', zhText: '📚 課程', enText: '📚 Courses' },
         { href: 'http://0x2A.science', zhText: '🧪 零式科學', enText: '🧪 0x2A Science' },
         { href: 'Maker.html', zhText: '🛠️ 自造者學院', enText: '🛠️ MakerTech' },
-        { href: 'DeepTech.html', zhText: '🚀 深科技學校', enText: '🚀 DeepTech' }
+        { href: 'DeepTech.html', zhText: '🚀 深科技AI學校', enText: '🚀 DeepTech AI' }
     ];
 
     menuMappings.forEach(mapping => {
@@ -874,8 +874,8 @@ function updateFooterContent() {
         const text = el.textContent;
         if (text.includes('BioX') && (text.includes('成立於') || text.includes('founded'))) {
             el.innerHTML = currentLang === 'en' 
-                ? 'BioX was founded in 2012 as Hong Kong\'s first startup to develop 3D printers and automation systems, and to teach maker technology.<br><br>In 2020, we merged with 42Lab to establish three major brands: 0x2A Science, MakerTech Academy, and DeepTech School.'
-                : 'BioX 成立於2012年，為香港首間研發3D打印機及自動化系統的初創，並教授自造者技術。<br><br>於2020年，合併42Lab從而成立三大品牌：零式科學、自造者學院、深科技學校。';
+                ? 'BioX was founded in 2012 as Hong Kong\'s first startup to develop 3D printers and automation systems, and to teach maker technology.<br><br>In 2020, we merged with 42Lab to establish three major brands: 0x2A Science, MakerTech Academy, and DeepTech AI School.'
+                : 'BioX 成立於2012年，為香港首間研發3D打印機及自動化系統的初創，並教授自造者技術。<br><br>於2020年，合併42Lab從而成立三大品牌：零式科學、自造者學院、深科技AI學校。';
         }
     });
 
@@ -891,8 +891,8 @@ function updateFooterContent() {
         '0x2A Science': { zh: '零式科學', en: '0x2A Science' },
         '自造者學院': { zh: '自造者學院', en: 'MakerTech Academy' },
         'MakerTech Academy': { zh: '自造者學院', en: 'MakerTech Academy' },
-        '深科技學校': { zh: '深科技學校', en: 'DeepTech School' },
-        'DeepTech School': { zh: '深科技學校', en: 'DeepTech School' }
+        '深科技AI學校': { zh: '深科技AI學校', en: 'DeepTech AI School' },
+        'DeepTech AI School': { zh: '深科技AI學校', en: 'DeepTech AI School' }
     };
 
     document.querySelectorAll('.vlt-widget-nav-menu a').forEach(el => {
@@ -965,8 +965,8 @@ function updateMainContent() {
             '0x2A Science': { zh: '零式科學', en: '0x2A Science' },
             '自造者技術學院': { zh: '自造者技術學院', en: 'MakerTech Academy' },
             'MakerTech Academy': { zh: '自造者技術學院', en: 'MakerTech Academy' },
-            '深科技學校': { zh: '深科技學校', en: 'DeepTech School' },
-            'DeepTech School': { zh: '深科技學校', en: 'DeepTech School' }
+            '深科技AI學校': { zh: '深科技AI學校', en: 'DeepTech AI School' },
+            'DeepTech AI School': { zh: '深科技AI學校', en: 'DeepTech AI School' }
         };
         if (brandMappings[text]) {
             el.textContent = brandMappings[text][currentLang];
@@ -1005,8 +1005,8 @@ function updateMainContent() {
         if (text.includes('深科技') || text.includes('DeepTech')) {
             if (text.includes('培養') || text.includes('nurturing')) {
                 el.textContent = currentLang === 'en'
-                    ? 'DeepTech School is committed to nurturing next-generation technology talents, offering blockchain, AI, bioinformatics, and tokenization courses & workshops.'
-                    : '深科技學校致力於培養下一代科技人才，提供區塊鏈、人工智能、生物信息學、代幣化課程/工作坊。';
+                    ? 'DeepTech AI School is committed to nurturing next-generation technology talents, offering blockchain, AI, bioinformatics, and tokenization courses & workshops.'
+                    : '深科技AI學校致力於培養下一代科技人才，提供區塊鏈、人工智能、生物信息學、代幣化課程/工作坊。';
             }
         }
     });

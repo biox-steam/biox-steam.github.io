@@ -170,7 +170,7 @@ document.write(`
 													</ul>
 													-->
 												</li>
-												<li class="menu-item-has-children"><a href="DeepTech.html"><span data-i18n="nav.deeptech">深科技學校</span></a>
+												<li class="menu-item-has-children"><a href="DeepTech.html"><span data-i18n="nav.deeptech">深科技AI學校</span></a>
 												<!--
 													<ul class="sub-menu">
 														<li class="menu-item-has-children left"><a href="about-us-01.html"><span>A - 人工智能 🤖 </span></a>
@@ -537,7 +537,7 @@ document.write(`
 													-->
 												</li>
 
-												<li class="menu-item"><a href="DeepTech.html"><span data-i18n="nav.deeptech">深科技學校</span></a>
+												<li class="menu-item"><a href="DeepTech.html"><span data-i18n="nav.deeptech">深科技AI學校</span></a>
 												<!--
 													<ul class="sub-menu">
 														<li class="menu-item-has-children left"><a href="about-us-01.html"><span>A - 人工智能 🤖 </span></a>
