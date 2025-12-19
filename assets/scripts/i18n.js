@@ -117,12 +117,12 @@ const translations = {
         'en': 'DeepTech AI School'
     },
     'brand.deeptech.category': {
-        'zh': '電腦科學，深度科技，創業精神',
-        'en': 'Computer Science, DeepTech, Entrepreneurship'
+        'zh': '人工智能、電腦科學，深度科技，創業精神',
+        'en': 'AI, Computer Science, DeepTech, Entrepreneurship'
     },
     'brand.deeptech.desc': {
-        'zh': '編程，區塊鏈，去中心金融，量子電腦，生物信息學，人工智能，使用者經驗設計，商業模式設計',
-        'en': 'Coding, Blockchain, DeFi, Quantum Computing, Bioinformatics, AI, UX/UI, Business Canvas...etc'
+        'zh': '人工智能，生成式人工智能, 深度學習，編程，區塊鏈，去中心金融，量子電腦，生物信息學，使用者經驗設計，商業模式設計',
+        'en': 'AI, GenAI, Coding, Blockchain, DeFi, Quantum Computing, Bioinformatics, UX/UI, Business Canvas...etc'
     },
 
     // Research-based section
