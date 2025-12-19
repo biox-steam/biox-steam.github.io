@@ -23,7 +23,7 @@ document.write(`
 									<li><a href="IT-lab.html" data-i18n="nav.itlab">中學IT創新實驗室</a></li>
 									<li><a href="https://0x2A.science" data-i18n="nav.science">零式科學</a></li>
 									<li><a href="http://makertech.academy" data-i18n="nav.maker">自造者學院</a></li>
-									<li><a href="http://deeptech.school" data-i18n="nav.deeptech">深科技學校</a></li>
+									<li><a href="DeepTech.html" data-i18n="nav.deeptech">深科技學校</a></li>
 								</ul>
 							</div>
 						</div>

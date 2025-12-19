@@ -250,6 +250,7 @@ document.write(`
 													</ul>
 												-->
 												</li>
+												<li class="menu-item"><a href="https://biox.science" target="_blank"><span>🧬 BioX</span></a></li>
 
 
 												<!-- <li class="menu-item-has-children"><a href="#"><span>Blog</span></a>
@@ -617,6 +618,7 @@ document.write(`
 
 												-->
 												</li>
+												<li class="menu-item"><a href="https://biox.science" target="_blank"><span>🧬 BioX</span></a></li>
 
 
 

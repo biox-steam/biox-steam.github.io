@@ -126,7 +126,21 @@
 
 .vlt-is--homepage-05 .vlt-header--default .vlt-navbar,
 .vlt-is--homepage-05 .vlt-header--default .vlt-navbar.vlt-navbar--solid {
-	background-color: #191919;
+	background-color: #f8f9fa;
+}
+
+.vlt-is--homepage-05 .vlt-header--default .vlt-navbar .sf-menu > li > a {
+	color: #333;
+}
+
+.vlt-is--homepage-05 .vlt-header--default .vlt-navbar .sf-menu > li:hover > a,
+.vlt-is--homepage-05 .vlt-header--default .vlt-navbar .sf-menu > li.current-menu-item > a,
+.vlt-is--homepage-05 .vlt-header--default .vlt-navbar .sf-menu > li.sfHover > a {
+	color: #ee3364;
+}
+
+.vlt-is--homepage-05 .vlt-header--default .vlt-navbar #lang-toggle-text {
+	color: #333;
 }
 
 .vlt-is--homepage-11 .vlt-navbar {
