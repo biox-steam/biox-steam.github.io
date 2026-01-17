@@ -1,6 +1,5 @@
 
 document.write(`
-
 <section>
 					<div class="vlt-gap-120"></div>
 					<div class="container">
